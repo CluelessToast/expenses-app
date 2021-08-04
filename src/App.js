@@ -39,7 +39,6 @@ const App = props => {
   }
 
   return (
-
     <div>
       <AddExpense onAddExpense={addExpenseData} />
       <ExpensesOut expenses={expenses} />
